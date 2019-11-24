@@ -1,0 +1,25 @@
+{
+  "name": "xseed_premier_league",
+  "version": "1.0.0",
+  "description": "Full Stack web application for Cricket league",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "localserver": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run localserver\" \"npm run client\""
+  },
+  "author": "Nikhilesh AS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0"
+  }
+}
